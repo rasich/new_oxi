@@ -1,0 +1,11 @@
+'use client'
+
+import { Toast } from '@heroui/react'
+
+export function ToastProvider() {
+	return (
+		<>
+			<Toast.Provider placement="top" />
+		</>
+	)
+}

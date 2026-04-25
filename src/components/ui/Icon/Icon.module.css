@@ -1,0 +1,21 @@
+.icon {
+	width: auto;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	& svg {
+		height: 100%;
+		width: auto;
+		aspect-ratio: 1;
+
+		& *[fill] {
+			fill: currentColor;
+		}
+
+		& *[stroke] {
+			stroke: currentColor;
+		}
+	}
+}

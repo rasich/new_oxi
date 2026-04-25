@@ -1,0 +1,6 @@
+.map {
+	& [class*='maplibregl-ctrl'] {
+		visibility: hidden !important;
+		display: none !important;
+	}
+}

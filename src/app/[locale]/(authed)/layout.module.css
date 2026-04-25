@@ -1,0 +1,31 @@
+@reference "../../globals.css";
+
+.layout {
+	@apply bg-background grid h-screen w-screen grid-cols-1 overflow-hidden md:grid-cols-[auto_1fr];
+
+	& .contentWrapper {
+		@apply relative flex h-full w-full min-w-0 flex-col gap-4 overflow-auto;
+
+		& .header {
+			@apply sticky top-0 backdrop-blur-lg shrink-0 z-10
+			flex-center-between gap-3
+			border-b;
+
+			& .left {
+				@apply flex items-center gap-3;
+
+				& .logo {
+					@apply [&_svg]:overflow-visible [&_svg]:aspect-auto;
+				}
+			}
+
+			& .right {
+				@apply shrink-0;
+			}
+		}
+
+		& .content {
+			@apply px-6 mb-6 h-full;
+		}
+	}
+}

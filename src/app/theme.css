@@ -1,0 +1,54 @@
+/* FONT SIZE */
+@theme {
+	--text-*: initial;
+
+	--text-s_h1: 2.25rem;
+	--text-s_h2: 1.875rem;
+	--text-s_h3: 1.5rem;
+	--text-s_h4: 1.25rem;
+	--text-s_body: 1rem; /* 16px */
+	--text-s_caption: 0.875rem; /* 14px */
+	--text-s_small: 0.75rem; /* 12px */
+	--text-s_tiny: 0.625rem; /* 10px */
+
+	/* --text-tiny: 0.625rem; */
+	/* --text-tiny--line-height: 1.5rem;  */
+	/* --text-tiny--letter-spacing: 0.125rem;  */
+	/* --text-tiny--font-weight: 500;  */
+}
+
+/* FONT WEIGHT */
+@theme {
+	--font-weight-*: initial;
+
+	--font-weight-w_regular: 400;
+	--font-weight-w_medium: 500;
+	--font-weight-w_semiBold: 600;
+	--font-weight-w_bold: 700;
+	--font-weight-w_extraBold: 800;
+}
+
+/* BREAKPOINTS */
+/* @theme { */
+/* --breakpoint-*: initial; */
+
+/* --breakpoint-mb: 20rem; */
+/* --breakpoint-tb: 48rem;  */
+/* md */
+/* --breakpoint-ds: 64rem; */
+/* lg */
+/* } */
+
+/* ANIMATION */
+@theme {
+	--animate-fade: fade 0.5s ease-in-out;
+
+	@keyframes fade {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}

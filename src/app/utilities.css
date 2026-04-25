@@ -1,0 +1,30 @@
+@utility flex-center-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@utility flex-center-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@utility spaceForScrollbar {
+	scrollbar-gutter: stable;
+}
+
+@utility disableScrollingOutside {
+	overscroll-behavior: contain;
+}
+
+@utility outline-border-none {
+	outline: none;
+	border: none;
+}
+
+@utility text-capitalizeFirst {
+	&:first-letter {
+		text-transform: uppercase;
+	}
+}
