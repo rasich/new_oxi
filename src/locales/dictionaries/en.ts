@@ -100,10 +100,34 @@ export default {
 	},
 
 	pages: {
+		'404': {
+			titleMeta: 'Page Not Found',
+			title: '404 - Page Not Found',
+			description: 'This page does not exist',
+		},
 		login: {
 			titleMeta: 'Login',
 			title: 'Login',
 			description: 'Please enter your credentials below to access OXI..',
+		},
+		// Test pages
+		test: {
+			page: {
+				titleMeta: 'Test page',
+				title: 'Test page',
+			},
+			page1: {
+				titleMeta: 'Test page 1',
+				title: 'Test page 1',
+			},
+			page2: {
+				titleMeta: 'Test page 2',
+				title: 'Test page 2',
+			},
+			error: {
+				titleMeta: 'Test error page',
+				title: 'Test error page',
+			},
 		},
 	},
 	error: {

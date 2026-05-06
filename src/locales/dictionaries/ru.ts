@@ -100,10 +100,34 @@ export default {
 	},
 
 	pages: {
+		'404': {
+			titleMeta: 'Страница не найдена',
+			title: '404 - Страница не найдена',
+			description: 'Этой страницы не существует',
+		},
 		login: {
 			titleMeta: 'Авторизация',
 			title: 'Авторизация',
 			description: 'Пожалуйста, введите Ваши данные, чтобы получить доступ к OXI.',
+		},
+		// Test pages
+		test: {
+			page: {
+				titleMeta: 'Test страница',
+				title: 'Test страница',
+			},
+			page1: {
+				titleMeta: 'Test страница 1',
+				title: 'Test страница 1',
+			},
+			page2: {
+				titleMeta: 'Test страница 2',
+				title: 'Test страница 2',
+			},
+			error: {
+				titleMeta: 'Test error страница',
+				title: 'Test error страница',
+			},
 		},
 	},
 	error: {

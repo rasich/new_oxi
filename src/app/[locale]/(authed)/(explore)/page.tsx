@@ -24,6 +24,8 @@ export default function Home() {
 	const { data } = useStatus()
 	const { theme } = useTheme()
 
+	// throw new Error('Error in Explore Page')
+
 	const { data: locations, isLoading: isLoadingLocations } = useLocations({ withStatuses: true })
 
 	return (
